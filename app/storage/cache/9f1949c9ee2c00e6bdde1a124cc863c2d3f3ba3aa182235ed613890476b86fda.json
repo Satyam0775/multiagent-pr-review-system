@@ -1,0 +1,5 @@
+{
+  "summary": "The code in `app.py` was modified. The `process` function now multiplies each element in the input data by 1000 instead of 100.",
+  "total_comments": 0,
+  "comments": []
+}

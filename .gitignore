@@ -1,0 +1,79 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+.vscode/*
+
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+*.egg
+*.pyd
+*.pyo
+*.pdb
+*.log
+
+# -----------------------------
+# FastAPI / Uvicorn
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.local
+.env.production
+.env.test
+
+# -----------------------------
+# Vector DB Files (FAISS / Qdrant)
+# -----------------------------
+*.faiss
+*.index
+*.hnsw
+*.bin
+
+# Your project vector index folder
+data/vector_index/
+data/cache/
+data/local/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+log/
+
+# -----------------------------
+# Python build artifacts
+# -----------------------------
+build/
+dist/
+pip-wheel-metadata/
+
+# -----------------------------
+# Random OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# PyCharm / JetBrains IDE
+# -----------------------------
+.idea/

@@ -1,0 +1,8 @@
+diff --git a/app.py b/app.py
+index 83db48a..bf12a3c 100644
+--- a/app.py
++++ b/app.py
+@@ -1,4 +1,4 @@
+ def process(data):
+-    return [x * 100 for x in data]
++    return [x * 1000 for x in data]
